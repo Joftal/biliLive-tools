@@ -458,6 +458,7 @@ export interface Recorder {
     recorderUid?: number | string;
     /** 头像 */
     avatar?: string;
+    lastRecordTime?: number | null;
   };
   disableAutoCheck?: boolean;
   /** 发送至发送至软件webhook */
