@@ -416,7 +416,6 @@ const preview = async () => {
       "随便取个名字",
       rawDanmuConfig,
       {
-        copyInput: true,
         removeOrigin: false,
         saveRadio: 2,
         savePath: "",
